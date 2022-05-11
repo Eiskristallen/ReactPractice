@@ -9,6 +9,9 @@ import{
   UilMoneyWithdrawal
 } from '@iconscout/react-unicons'
 
+import img1 from '../imgs/img1.png'
+import img2 from '../imgs/img2.png'
+import img3 from '../imgs/img3.png'
 /**
  * Sidebar data(in order to make sidebar
  * responsive rather than hard code)
@@ -77,3 +80,24 @@ export const CardsData=[
     ]
   }
 ];
+// Recent update card data at right side
+export const UpdatesData = [
+  {
+     img:img1,
+     name:'qing',
+     noti:'xxx',
+     time:'10 hours ago'
+  },
+  {
+    img:img2,
+    name:'hrhr',
+    noti:'xasdas',
+    time:'15 hours ago'
+  },
+  {
+    img:img3,
+    name:'xaqq',
+    noti:'zcxzzczxx',
+    time:'20 hours ago'
+  }
+]
