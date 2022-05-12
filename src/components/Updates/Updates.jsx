@@ -4,9 +4,9 @@ import './Updates.css'
 const Updates = () => {
   return (
     <div className='Updates'>
-      {UpdatesData.map((update)=>{
+      {UpdatesData.map((update,index)=>{
         return (
-          <div className='update'>
+          <div className='update' key={index}>
             <img src={update.img} alt=""/>
                <div className='noti'>
                 <div style={{

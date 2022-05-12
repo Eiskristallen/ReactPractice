@@ -11,7 +11,7 @@ const Card = () => {
     {CardsData.map((card,id)=>{
         return(
           //card is card component inside the big card at top of middle dashboard
-          <div className='parentContainer'>
+          <div className='parentContainer' key={id}> 
             <SmallCard 
             title={card.title}
             color={card.color}
